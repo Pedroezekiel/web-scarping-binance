@@ -13,6 +13,7 @@ async function scrapeProduct(url){
 async function arrangingScrapeProduct() {
     let result = await scrapeProduct("https://www.binance.com/en/orderbook/BTC_USDT");
     const data = [];
+    const sell_data = [];
     const arrayOfChunks = [];
     console.log(result);
     const rowPattern  = /Buy\s[0-9]{1,2}[0-9.,]+/
