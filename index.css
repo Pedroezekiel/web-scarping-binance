@@ -1,0 +1,56 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+.head_container{
+    margin: 0;
+    width: 100vw;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: rgb(230, 219, 219);
+}
+
+
+.header span img{
+  padding: 6px;
+  left: auto;
+}
+
+.crypto-menu {
+    width: 82vw;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto-menu a{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+}
+
+.crypto-menu button{
+    border-radius: 0px;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-around;
+}
+.api_container{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(27, 29, 32);
+}
+.order h1{
+    margin-left: 5ex;
+
+}
+#app, #zpy{
+    border: 1px solid black;
+    padding: 2%;
+
+}
